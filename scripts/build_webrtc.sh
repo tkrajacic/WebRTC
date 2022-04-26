@@ -6,6 +6,7 @@ ENVIROMENT="${ENVIROMENT:-'simulator'}" # simulator | device
 OUTPUT_DIR="../out"
 
 gen_args="target_os=\"${TARGET_OS}\" \
+use_lld=false \
 target_cpu=\"${TARGET_CPU}\" \
 is_debug=${IS_DEBUG:-false} \
 is_component_build=${IS_COMPONENT_BUILD:-false} \
